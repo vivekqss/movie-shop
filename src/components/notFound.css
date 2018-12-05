@@ -1,0 +1,43 @@
+.loader {
+    width: 100%;
+    height: calc(100vh - 56px);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loaderContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .loaderContent > div {
+    align-self: flex-start;
+  }
+  .loaderContent .errorIcon {
+    font-size: 50px;
+    color: #3498db;
+  }
+  .loaderContent .errormsg {
+    font-size: 40px;
+    color: #3498db;
+  }
+  .loaderContent .errorText {
+    font-size: 18px;
+    color: #666;
+  }
+  .loaderContent .refreshtext {
+    font-size: 18px;
+    color: #3498db;
+  }
+  
+  .reloadIcon {
+    font-family: Lucida Sans Unicode;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(90deg);
+  }
+  

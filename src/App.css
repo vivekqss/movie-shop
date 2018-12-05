@@ -1,0 +1,80 @@
+.card-img-top{
+  height:200px !important;
+}
+.mobiDetails.card-img-top{
+  height:231px !important;
+}
+.shadow{
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.card{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+html{
+  font-size: 15px;
+}
+.card-title{
+  margin-bottom: .5rem;
+}
+.card-body a.btn{
+  min-width:calc(50% - 10px) !important;  
+  margin-right:10px;
+}
+.card-body a.btn i{
+  padding-right:5px;
+}
+.card-body a.btn:last-child{
+margin-right:0;
+margin-left:10px;
+}
+.navbar-brand{
+  text-shadow: 1px 1px rgb(0,87,95),
+		2px 2px rgb(0,87,95),
+    3px 3px rgb(0,87,95), 4px 4px #1b1e21;
+    letter-spacing: 3px; 
+}
+.navbar-brand span{
+   text-shadow: 1px 1px #dc3545, 2px 2px #dc3545, 3px 3px #1b1e21, 4px 4px #1b1e21;
+}
+
+.mt-56{
+margin-top:56px;
+}
+.mt-65{
+  margin-top:65px;
+}
+.mt-140{
+  margin-top:140px;
+}
+nav{
+  transition:all .5s;
+  
+}
+.cart-link{
+  color:#fff !important;
+}
+.flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+/*  clear all*/
+.img-responsive{
+  opacity: 0.05;
+}
+.shadow{
+  box-shadow: none !important;
+  border:none !important;
+  }  
+  .navbar-brand{
+    opacity: o;
+  }
+.checkOut-info-center{
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
